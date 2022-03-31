@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*  Tea Cozy Header  */
+.tea-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell; 
+    z-index: 1; 
+}
+.begin-left {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sizing {
+    height: 50px;
+}
+.begin-right {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.item {
+  display: inline-block; 
+  text-decoration: underline; 
+}
+.space {
+    margin: 0px 10px;
+}
+
+/*  Mission Statement  */
+.mission {
+    position: relative;
+    top: 69px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    margin: 0px 40px; 
+    display: flex; 
+    justify-content: center;
+}
+.mission-header {
+    background-color: black;
+    opacity: 0.9;
+    width: 1200px;
+    height: fit-content;
+    position: relative;
+    top: 300px; 
+}
+
+/*  Tea of the Month  */
+.month-header {
+    margin-top: 100px;
+} 
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.tea-images {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+/*   Locations   */
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-right: 25px; 
+    z-index: 0;
+    padding: 1%;
+}
+.location-header {
+    margin-bottom: 15px;
+}
+.locations-boxed {
+    display: inline-flex;  
+}
+.box {
+   
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    align-content: space-between;
+    
+}
+.sized-box {
+    margin: 0px 40px; 
+}
+
+/*  Copyright  */
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
