@@ -76,32 +76,38 @@ body {
 }
 
 /*   Locations   */
-.locations {
+.location {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
     height: 500px;
-    margin-top: 90px;
+    margin-top: 25px;
     margin-left: 25px;
     margin-right: 25px; 
-    z-index: 0;
-    padding: 1%;
-}
-.location-header {
-    margin-bottom: 15px;
+    z-index: 0; 
 }
 .locations-boxed {
-    display: inline-flex;  
+    display: flex; 
+    justify-content: center;
+    align-content: space-around;
 }
 .box {
-   
     width: 300px;
+    padding: 1%;
+    border: 1px solid black;
     background-color: black;
     opacity: 1;
-    align-content: space-between;
     
 }
-.sized-box {
+.shrink1 {
+    margin-top: 15px;
+}
+.shrink2 {
     margin: 0px 40px; 
 }
+.shrink3 {
+    margin-top: 15px;
+}
+
+
 
 /*  Copyright  */
 .copyright {
@@ -109,4 +115,3 @@ body {
     margin-left: 20px;
     font-size: 16px;
 }
-
