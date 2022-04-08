@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea Cozy Not</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <body>
 
@@ -15,22 +16,23 @@
             <img class="sizing"src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="logo">
         </div>
         <div class="begin-right">
-            <div class="item">Mission</div>
-            <div class="item space">Featured Tea</div>
-            <div class="item">Locations</div>
+            <div class="item"><a href="#mission" class="navigate">Mission</a></div>
+            <div class="item space"><a href="#featured" class="navigate" >Tea</a></div>
+            <div class="item"><a href="#locations" class="navigate">Locations</a></div>
         </div>
     </div>
 
 <!--Mission Statement-->
-    <div class="mission">
+    <div class="mission" id="mission">
         <div class="mission-header">
-            <h2>Mission: To make really cool things and be amazing!</h2>
-            <h4>I made this webpage for a Codecademy flexbox project.  If you want to make stuff like this you should probably visit <a href="https://www.codecademy.com/">Codecademy</a> for more information.  Thanks for visiting. </h4>
+            <h2>Mission</h2>
+            <h3>To make really cool things and be amazing!</h3>
+            <h4>I made this webpage for my <a href="https://www.codecademy.com/" target="_blank" class="navigate">Codecademy</a> Flexbox Portfolio Project.<br>I hope you have enjoyed this webpage and thank you for visiting.</h4>
         </div>
     </div>
 
 <!--Tea of the Month-->
-    <div class="tea-month">
+    <div class="tea-month" id="featured">
         <div class="month-header">
             <h2>Tea of the Month</h2>
             <h4>What's Steeping at The Tea Cozy?</h4>
@@ -66,7 +68,7 @@
 
     <!--Locations-->
     <div class="location">
-        <h2 class="location-header">Locations</h2>
+        <h2 class="location-header" id="locations">Locations</h2>
         <div class="locations-boxed">
             <div class="box shrink1">
                 <h3>Downtown</h3>
@@ -91,13 +93,14 @@
 <!--Contact-->
     <div class="contact">
         <h2>The Tea Cozy</h2>
-        <h5>contact@theteacozy.com</h5>
-        <p>917-555-8904</p>
+        <a href="mailto:webdevsem@gmail.com" target="_blank"><p>webdevsem@gmail.com</p></a>
+        <a href="https://semilb.github.io/semilb/" target="_blank"><i class='fa fa-github' style='color: lightslategray'></i></a>
     </div>
 
     <!--Copyright-->
     <div class="copyright">
         <p>copyright The Tea Cozy 2022</p>
+        
 
     </div>
 </body>
